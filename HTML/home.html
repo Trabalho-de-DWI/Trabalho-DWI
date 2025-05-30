@@ -5,38 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="/CSS/home.css">
 </head>
 
 <body>
-    <h2>Bem-vindo ao Anime Space!</h2>
-    <p>O universo dos animes ao seu alcance</p>
-    <p>O <strong>Animes Space</strong> é um portal dedicado a recomendar os melhores animes, separados por gênero, nota
-        e estilo. Descubra novos títulos, veja o que está em alta e mergulhe no mundo dos animes!</p>
-    <nav>
+    <div class="header">
+        <h2>Bem-vindo<br>
+            <img src="/img/slogan2.png" alt="#">
+        </h2>
+           <p>O universo dos animes ao seu alcance</p><br>
+           <p>O <strong>Animes Space</strong> é um portal dedicado a recomendar os melhores animes, separados por 
+            gênero, nota e estilo. Descubra novos títulos, veja o que está em alta e mergulhe no mundo dos animes!</p>
+    </div>
+    <div class="links">
+        <nav>
         <a href="home.html">Home</a> |
         <a href="login.html">Login</a> |
         <a href="recomendacao.html">Recomendações</a> |
         <a href="sobre.html">Sobre o site</a>
-    </nav><br>
-    <h3>Lista com Gêneros Populares </h3>
-    <ul>
-        <li>Ação</li>
-        <li>Fantasia</li>
-        <li>Isekai</li>
-        <li>Comédia</li>
-        <li>Drama</li>
-        <li>Romance</li>
-        <li>Terror</li>
-        <li>Slice of Life</li>
-        <li>Shounen</li>
-        <li>Seinen</li>
-    </ul>
-    <h3>Top 3 do mês:</h3>
-    <ol>
-        <li>Attack on Titan</li><img src="\img\titan.jpg" alt="#">
-        <li>One Piece</li><img src="\img\one.jpg" alt="#">
-        <li>Jujutsu Kaisen</li><img src="\img\jujutso.jpg" alt="#">
-    </ol>
+    </nav>
+    </div><br>
+    <div class="genres">
+        <h5>Gêneros Populares </h5>
+        <ul>
+           <li>Ação</li>
+           <li>Fantasia</li>
+           <li>Isekai</li>
+           <li>Comédia</li>
+           <li>Drama</li>
+           <li>Romance</li>
+           <li>Terror</li>
+           <li>Slice of Life</li>
+           <li>Shounen</li>
+           <li>Seinen</li>
+       </ul>
+    </div><br><br>
+    <div class="top-animes">
+        <h3>Top 3 do mês:</h3>
+        <ol>
+           <li>
+           Attack on Titan
+           <img src="/img/titan.jpg" alt="Attack on Titan" class="img">
+           </li>
+           <li>
+           One Piece
+           <img src="/img/one.jpg" alt="One Piece" class="img">
+           </li>
+           <li>
+           Jujutsu Kaisen
+           <img src="/img/jujutso.jpg" alt="Jujutsu Kaisen" class="img">
+           </li>
+        </ol>
+    </div>
 </body>
 
 </html>

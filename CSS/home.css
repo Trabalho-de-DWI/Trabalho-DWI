@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: px;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('../img/earth-1756274.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .header-box {
+    background-color: #000000;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ccc;
+  }
+  p {
+    text-align: center;
+    margin-bottom: auto;
+    font-size: 16px;
+    color: #ccc;
+  }
+  .links {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .links a {
+    display: block inline;
+    text-decoration: none;
+    color: #fbff01;
+    margin: 5px 0;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .links a:hover {
+    color: #0044ff;
+  }
+  h5 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #ccc;
+  }
+  .genres {
+    margin-bottom: auto;
+    text-align: center;
+    color:#ccc;
+    display: inline-block;
+  }
+  .genres ul {
+    width: auto;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ccc;
+  }
+  .top-animes ol {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+  }
+
+  .top-animes li {
+    text-align: center;
+    color: #ccc;
+  }
+  .img {
+    width: 200px;
+    height: 130px;
+    border-radius: 50%;
+    display: block;
+    margin-top: 5px;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+ 
