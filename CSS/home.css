@@ -26,10 +26,10 @@
     margin: 0 auto; 
   }
   .header .img-slogan {
-      display: block;
-      margin: 10px auto; 
-      width: 500px; 
-      height: auto;
+    display: block;
+    margin: 10px auto; 
+    width: 500px;       
+    height: auto;
   }
   .header p {
     font-size: 17px;
