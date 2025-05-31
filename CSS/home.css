@@ -7,17 +7,14 @@
   }
 
   html, body {
-    background-color: black; 
-    color: white; 
-    height: 100%;
-  }
-  body {
+    background-color: rgb(0, 0, 0);
     font-family: Arial, sans-serif;
     background-image: url('../img/earth-1756274.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     min-height: 100vh;
+    padding: 0;
   }
   .header {
     text-align: center; 
@@ -37,10 +34,11 @@
   }
 
   .header .img-slogan {
-    display: block;
-    margin: 10px auto; 
-    max-width: 300px; 
+      display: block;
+      margin: 20px auto; 
+      max-width: 300px; 
   }
+  
 
   .header p {
     font-size: 16px;
@@ -55,6 +53,11 @@
     text-align: center;
     margin-top: 30px;
     margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.6); 
+    border-radius: 15px;
+    color: #f0f0f0; 
+    max-width: 1200px;
+    margin: 0 auto; 
   }
   .links a {
     display: inline-block;
@@ -87,6 +90,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0;
   }
   .genres-title {
     font-size: 1.5em;
@@ -124,7 +128,7 @@
     text-align: center;
     margin-bottom: 20px;
     font-size: 24px;
-    color: #ccc;
+    color: #ff9f00;
   }
   .top-animes ol {
     display: flex;
@@ -136,10 +140,10 @@
 
   .top-animes li {
     text-align: center;
-    color: #ff9f00;
+    color: #ffffff;
   }
   .img {
-    width: 220px;
+    width: 200px;
     height: 120px;
     border-radius: 50%;
     display: block;
