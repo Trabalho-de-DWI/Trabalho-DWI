@@ -1,4 +1,6 @@
-  body {
+@charset "UTF-8";
+
+  html, body { 
     background-color: #111;
     color: #ff9f00;
     font-family: sans-serif;
@@ -14,7 +16,7 @@
   .links nav a {
     color: #ff9f00;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 60px;
     font-weight: bold;
   }
   .links nav a:hover {
@@ -51,7 +53,7 @@
     background-color: #ff9f00;
     color: #000;
   }
-  .sinopse-bloco {
+  .caixa-sinopse {
     display: flex;
     align-items: flex-start;
     gap: 15px;
@@ -61,20 +63,20 @@
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.6);
   }
-  .sinopse-bloco img.miniatura {
+  .caixa-sinopse .mini-img {
     width: 120px;
     height: 170px;
     border-radius: 8px;
     object-fit: cover;
     border: 2px solid #ff9f00;
   }
-  .sinopse-bloco .texto h4 {
+  .caixa-sinopse .sinopse h4 {
     margin: 0 0 10px;
     color: #fff;
     font-size: 20px;
   }
 
-  .sinopse-bloco .texto p {
+  .caixa-sinopse .sinopse p {
     margin: 0;
     color: #ccc;
     line-height: 1.5;

@@ -19,6 +19,7 @@
     text-align: center; 
     padding: 30px;
     background-color: rgba(0, 0, 0, 0.6); 
+    box-shadow: 0 5px 15px rgb(175, 134, 0);
     border-radius: 15px;
     color: #f0f0f0; 
     max-width: 1200px;
@@ -39,6 +40,7 @@
     margin-top: 30px;
     margin-bottom: 20px;
     background-color: rgba(0, 0, 0, 0.6); 
+    box-shadow: 0 5px 15px rgb(175, 134, 0);
     border-radius: 15px;
     color: #f0f0f0; 
     max-width: 1200px;
@@ -84,8 +86,9 @@
     padding: 12px 20px;
     display: flex;
     gap: 12px;
-    border: 1px solid #555;
+    border: 1px solid #000000;
     background-color: rgba(0, 0, 0, 0.5); 
+    box-shadow: 0 5px 15px rgb(175, 134, 0);
     border-radius: 15px;
     flex-wrap: wrap;
     justify-content: center;
@@ -128,6 +131,7 @@
   }
   .top-animes .destaque {
     background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 5px 15px rgb(175, 134, 0);
     color: #ff9f00;
     padding: 4px 8px;
     border-radius: 20px;
@@ -183,6 +187,7 @@
     text-align: center; 
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.6); 
+    box-shadow: 0 5px 15px rgb(175, 134, 0);
     color: #f0f0f0; 
     max-width: auto;
     margin: 0 auto; 
