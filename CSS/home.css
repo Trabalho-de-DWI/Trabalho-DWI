@@ -121,7 +121,6 @@
     padding: 0;
     flex-wrap: wrap;
   }
-
   .top-animes li {
     text-align: center;
     color: #ff9f00;
@@ -142,7 +141,7 @@
   .img {
     width: 220px;
     height: 150px;
-    border-radius: 50%;
+    border-radius: 30px;
     display: block;
     margin-top: 5px;
     border: 2px solid black;
