@@ -7,31 +7,22 @@
     padding: 0;
     box-sizing: border-box;
 }
-html {
+html, .body {
     background-color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    padding: 0;
     background-image: url('../img/earth-1756274.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    font-family: Arial, sans-serif;
     min-height: 100vh;
-    padding: 0;
-}
-.body {
-    background-color: rgb(0, 0, 0);
-    font-family: Arial, sans-serif;
-    padding: 0;
-    background-image: url('../img/earth-1756274.jpg');
-    background-size: cover;
-    background-repeat: repeat;
-    background-position: center;
 }
 
 /* =========================
             HOME 
    ========================= */
 
-.home .header {
+.home .cabeca {
     text-align: center;
     padding: 30px;
     background-color: rgba(0, 0, 0, 0.6);
@@ -41,13 +32,13 @@ html {
     max-width: 1200px;
     margin: 0 auto;
 }
-.home .header .img-slogan {
+.home .cabeca .img-slogan {
     display: block;
     margin: 10px auto;
     width: 500px;
     height: auto;
 }
-.home .header p {
+.home .cabeca p {
     font-size: 17px;
     margin-bottom: 5px;
 }
@@ -383,10 +374,10 @@ html {
 }
 
 /* =========================
-            RECOMENDAÇÃO 
+        RECOMENDAÇÃO 
    ========================= */
   
-.recomendacao header {
+.recomendacao .links {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -394,22 +385,27 @@ html {
     background-color: #1a1a1a;
     box-shadow: 0 4px 20px rgba(0,0,0,0.8);
 }
-.recomendacao header h1 {
+.recomendacao .links h1 {
     font-size: 36px;
     color: #ff9f00;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
-.recomendacao nav a {
-    margin: 0 20px;
+.recomendacao .links a {
+    display: inline-block;
     text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-    transition: color 0.3s, transform 0.3s;
-}
-.recomendacao nav a:hover {
     color: #ff9f00;
-    transform: scale(1.1);
+    margin: 0 12px; 
+    font-size: 17px;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+.recomendacao .links a:hover {
+    color: #000000;
+    background-color: #ff9f00;
+    box-shadow: 0 0 5px #ffffff;
 }
 .recomendacao .anime-table {
     width: 90%;
@@ -477,30 +473,30 @@ html {
             SOBRE 
    ========================= */
 
-.sobre header {
+.sobre .links {
     padding: 30px;
     background-color: #1a1a1a;
     box-shadow: 0 4px 20px rgba(0,0,0,0.8);
 }
-.sobre header h1 {
+.sobre .links h1 {
     font-size: 48px;
     color: #ff9f00;
     margin-bottom: 10px;
     text-align: center;
 }
-.sobre header p {
+.sobre .links p {
     color: #aaa;
     font-size: 16px;
     margin-top: 0;
 }
-.sobre nav {
+.sobre .links nav {
     background-color: #111;
     padding: 15px 0;
     border-radius: 10px;
     margin: 20px auto;
     width: fit-content;
 }
-.sobre nav a {
+.sobre .links a {
     margin: 0 15px;
     text-decoration: none;
     color: #fff;
@@ -508,10 +504,10 @@ html {
     border-right: 1px solid #555;
     padding-right: 15px;
 }
-.sobre nav a:last-child {
+.sobre  .links nav a:last-child {
     border-right: none;
 }
-.sobre nav a:hover {
+.sobre .links nav a:hover {
     color: #ff9f00;
 }
 .sobre main {
