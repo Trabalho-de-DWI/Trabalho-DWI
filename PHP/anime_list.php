@@ -16,7 +16,7 @@ $animes = $pdo->query("SELECT * FROM animes ORDER BY nota DESC")->fetchAll();
         <h1>Animes Recomendados</h1>
         <nav>
             <a href="../HTML/home.html">Home</a>
-            <a href="../PHP/anime_list.php">Novo Anime</a>
+            <a href="anime_form.php">Novo Anime</a>
             <a href="../HTML/login.html">Login</a>
         </nav>
     </div>
@@ -35,7 +35,7 @@ $animes = $pdo->query("SELECT * FROM animes ORDER BY nota DESC")->fetchAll();
             <tbody>
                 <?php foreach ($animes as $a): ?>
                     <tr>
-                        <td><img src="img/<?= htmlspecialchars($a['imagem']) ?>" alt="<?= htmlspecialchars($a['nome']) ?>"></td>
+                        <td><img src="../img/<?= htmlspecialchars($a['imagem']) ?>" alt="<?= htmlspecialchars($a['nome']) ?>" width="100"></td>
                         <td><?= htmlspecialchars($a['nome']) ?></td>
                         <td><?= htmlspecialchars($a['generos']) ?></td>
                         <td class="destaque"><?= number_format($a['nota'], 1) ?></td>
